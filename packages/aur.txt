@@ -1,0 +1,8 @@
+brave-bin
+electron34
+electron37
+gtk-engine-murrine
+gtk2
+nchat-debug
+yay
+yay-debug

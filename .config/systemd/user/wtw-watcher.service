@@ -1,0 +1,14 @@
+[Unit]
+Description=Watchtower's service for regular updates from external API and sending notifications
+
+[Service]
+Type=simple
+
+ExecStart=%h/.local/bin/wtw-watcher
+
+WorkingDirectory=%h/.local/state/watchtower
+
+EnvironmentFile=%h/.config/watchtower/.env
+
+[Install]
+WantedBy=default.target
