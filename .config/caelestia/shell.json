@@ -1,0 +1,191 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": false
+        }
+    },
+    "background": {
+        "wallpaperEnabled": true
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "inverted": true,
+            "showOnHover": false
+        },
+        "clock": {
+            "background": false,
+            "showDate": true,
+            "showIcon": false
+        },
+        "persistent": true,
+        "popouts": {
+            "activeWindow": false,
+            "statusIcons": true
+        },
+        "scrollActions": {
+            "workspaces": false
+        },
+        "showOnHover": true,
+        "statusIcons": [
+            {
+                "enabled": true,
+                "id": "lockStatus"
+            },
+            {
+                "enabled": true,
+                "id": "audio"
+            },
+            {
+                "enabled": true,
+                "id": "microphone"
+            },
+            {
+                "enabled": true,
+                "id": "kbLayout"
+            },
+            {
+                "enabled": true,
+                "id": "network"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "battery"
+            }
+        ],
+        "tray": {
+            "background": false,
+            "compact": true,
+            "recolour": true
+        },
+        "workspaces": {
+            "activeIndicator": true,
+            "activeTrail": true,
+            "maxWindowIcons": 5,
+            "occupiedBg": false,
+            "perMonitorWorkspaces": false,
+            "showWindows": false,
+            "showWindowsOnSpecialWorkspaces": false,
+            "shown": 5
+        }
+    },
+    "dashboard": {
+        "enabled": true,
+        "performance": {
+            "showBattery": true
+        },
+        "showMedia": false,
+        "showOnHover": true,
+        "showWeather": false
+    },
+    "general": {
+        "showOverFullscreen": true,
+        "apps": {
+            "terminal": [
+                "kitty"
+            ]
+        },
+        "battery": {
+            "criticalLevel": 3,
+            "warnLevels": [
+                {
+                    "icon": "battery_android_frame_2",
+                    "level": 40,
+                    "message": "You might want to plug in a charger",
+                    "title": "Low battery"
+                },
+                {
+                    "icon": "battery_android_frame_1",
+                    "level": 25,
+                    "message": "You should probably plug in a charger <b>now</b>",
+                    "title": "Did you see the previous message?"
+                },
+                {
+                    "critical": true,
+                    "icon": "battery_android_alert",
+                    "level": 15,
+                    "message": "PLUG THE CHARGER RIGHT NOW!!",
+                    "title": "Critical battery level"
+                }
+            ]
+        },
+        "idle": {
+            "inhibitWhenAudio": true,
+            "inhibitWhenCharging": false,
+            "lockBeforeSleep": false,
+            "timeouts": [
+                {
+                    "idleAction": "dpms off",
+                    "returnAction": "dpms on",
+                    "timeout": 300
+                },
+                {
+                    "idleAction": [
+                        "suspendThenHibernate"
+                    ],
+                    "timeout": 600
+                }
+            ]
+        }
+    },
+    "launcher": {
+        "vimKeybinds": true
+    },
+    "notifs": {
+        "fullscreen": "On",
+        "openExpanded": false
+    },
+    "services": {
+        "audioIncrement": 0.1,
+        "maxVolume": 1.2,
+        "useFahrenheit": false,
+        "useTwelveHourClock": false,
+        "visualiserBars": 60
+    },
+    "sidebar": {
+        "enabled": true
+    },
+    "utilities": {
+        "enabled": true,
+        "maxToasts": 3,
+        "quickToggles": [
+            {
+                "enabled": true,
+                "id": "wifi"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "mic"
+            },
+            {
+                "enabled": true,
+                "id": "settings"
+            },
+            {
+                "enabled": true,
+                "id": "gameMode"
+            },
+            {
+                "enabled": true,
+                "id": "dnd"
+            },
+            {
+                "enabled": true,
+                "id": "vpn"
+            }
+        ],
+        "toasts": {
+            "chargingChanged": true,
+            "fullscreen": "all",
+            "kbLayoutChanged": true
+        }
+    }
+}
